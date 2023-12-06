@@ -1,10 +1,12 @@
+/* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    /* This ensures the container takes at least the full height of the viewport */
 }
 
 .container {
@@ -12,48 +14,19 @@ body {
     margin: 0 auto;
 }
 
-/* Header Styles */
-.main-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
+/* Main Content Styles */
+#main-content {
+    flex: 1;
+    /* This allows the main content to take up the available space */
+    margin-top: 20px;
 }
 
-.logo {
-    margin: 0;
+#main-content h2 {
+    color: #333;
 }
 
-.logo a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.5em;
-}
-
-.main-nav {
-    margin-top: 10px;
-}
-
-.main-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-.main-nav li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.main-nav a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2em;
-}
-
-/* Content Styles */
-.main-content {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 0 20px;
+#main-content p {
+    color: #555;
 }
 
 /* Footer Styles */
@@ -63,14 +36,9 @@ body {
     text-align: center;
     padding: 20px 0;
     margin-top: auto;
-    /* Push the footer to the bottom */
+    /* This pushes the footer to the bottom */
 }
 
-.main-footer p {
-    margin: 0;
-}
-
-/* Social Icons */
 #social-networks {
     list-style: none;
     padding: 0;
@@ -88,19 +56,19 @@ body {
     font-size: 24px;
 }
 
-/* Add more specific styles for individual icons if needed */
-.fab.fa-facebook-square {
+/* Social Icons */
+.fa-facebook {
     color: #3b5998;
 }
 
-.fab.fa-twitter-square {
+.fa-twitter-square {
     color: #1da1f2;
 }
 
-.fab.fa-youtube-square {
+.fa-youtube-square {
     color: #c4302b;
 }
 
-.fab.fa-instagram {
+.fa-instagram {
     color: #e4405f;
 }
