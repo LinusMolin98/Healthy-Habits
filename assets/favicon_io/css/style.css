@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Lato:ital,wght@1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-
 /* Global Styles */
-
 body {
     font-family: 'Josefin Sans', 'Lato', 'Oswald', sans-serif;
     margin: 0;
@@ -10,7 +8,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    /* This ensures the container takes at least the full height of the viewport */
 }
 
 .container {
@@ -21,7 +18,6 @@ body {
 /* Main Content Styles */
 #main-content {
     flex: 1;
-    /* This allows the main content to take up the available space */
     margin-top: 20px;
 }
 
@@ -33,6 +29,45 @@ body {
     color: #555;
 }
 
+#fitness {
+    text-align: center;
+    padding: 20px;
+}
+
+.inspirational-quote {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inspirational-quote h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.inspirational-quote p {
+    font-size: 1.2em;
+}
+
+.inspirational-image {
+    background-image: url('assets/images/1608.m00.i125.n001.P.c25.412978636 Active running woman vector illustration. Energy jogging woman design.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    height: 200px;
+}
+
+#benefits-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 /* Footer Styles */
 .main-footer {
     background-color: #333;
@@ -40,7 +75,6 @@ body {
     text-align: center;
     padding: 20px 0;
     margin-top: auto;
-    /* This pushes the footer to the bottom */
 }
 
 #social-networks {
