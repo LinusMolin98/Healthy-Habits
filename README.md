@@ -6,3 +6,4 @@ Favicon structure and content is inspired from the love running project and foll
 
 - Pictures have been taken from unsplash.com - (link here) <https://unsplash.com/s/photos/fitness>
 - Footer content inspired and based on the love running project, with the social media links. 
+- Font awesome kit used (link) <https://kit.fontawesome.com/3b20d96fa9.js>
