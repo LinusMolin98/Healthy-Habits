@@ -1,87 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Healthy Habits</title>
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon_io/favicon-16x16.png"
+    />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        integrity="sha384-pzjw8J+0UqRAO+VeioVVdOVWSJFX1fKeG1tiIAX5shMzjzkUHjELISOnnU2VEVvN" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha384-pzjw8J+0UqRAO+VeioVVdOVWSJFX1fKeG1tiIAX5shMzjzkUHjELISOnnU2VEVvN"
+      crossorigin="anonymous"
+    />
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="assets/favicon_io/css/style.css">
-    <link rel="stylesheet" href="assets/favicon_io/css/navbar.css">
-</head>
+    <link rel="stylesheet" href="assets/favicon_io/css/style.css" />
+    <link rel="stylesheet" href="assets/favicon_io/css/navbar.css" />
+    <style>
+      .hero {
+        background-image: url("assets/images/low-angle-view-unrecognizable-muscular-build-man-preparing-lifting-barbell-health-club.jpg");
+        /* Replace with the actual path to your image */
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        /* Adjust the height as needed */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(59, 105, 165);
+        /* Set the text color for better visibility */
+        text-align: center;
+      }
 
-<body>
+      .hero h1 {
+        font-size: 2.5em;
+      }
+
+      .hero p {
+        font-size: 1.2em;
+      }
+    </style>
+  </head>
+
+  <body>
+   
     <!-- Navbar Toggle Checkbox -->
-    <input type="checkbox" id="navbar-toggle">
+    <input type="checkbox" id="navbar-toggle" />
 
     <!-- Navbar -->
     <nav class="navbar">
-        <div class="container">
-            <!-- Navbar Brand -->
-            <div class="navbar-brand">
-                <h1 class="title"><a href="index.html">Healthy Habits</a></h1>
-            </div>
-
-            <!-- Navbar Toggle Button -->
-            <label for="navbar-toggle" class="navbar-toggle-btn">&#9776;</label>
-
-            <!-- Navbar Links -->
-            <ul class="navbar-links">
-                <li><a href="index.html">Welcome</a></li>
-                <li><a href="tips.html">Tips</a></li>
-                <li><a href="getincontact.html">Get in contact</a></li>
-            </ul>
+      <div class="container">
+        <!-- Navbar Brand -->
+        <div class="navbar-brand">
+          <h1 class="title"><a href="index.html">Healthy Habits</a></h1>
         </div>
+
+        <!-- Navbar Toggle Button -->
+        <label for="navbar-toggle" class="navbar-toggle-btn">&#9776;</label>
+
+        <!-- Navbar Links -->
+        <ul class="navbar-links">
+          <li><a href="index.html">Welcome</a></li>
+          <li><a href="tips.html">Tips</a></li>
+          <li><a href="getincontact.html">Get in contact</a></li>
+        </ul>
+      </div>
     </nav>
 
     <!-- Main Content -->
     <main>
-        <section id="main-content" class="container">
-            <h2>Welcome to Healthy Habits</h2>
-            <p>Discover a healthier lifestyle with our expert tips and advice.</p>
-            <!-- Add more content here as needed -->
-        </section>
+    <div class="hero">
+        <h1>Welcome to Healthy Habits!</h1>
+        <p>Discover a healthier lifestyle with our expert tips and advice.</p>
+    </div>
     </main>
 
     <!-- Footer -->
     <footer class="main-footer">
-        <div class="container">
-            <p>&copy; 2023 Healthy Habits. All rights reserved.</p>
-            <ul id="social-networks">
-                <li>
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)">
-                        <i class="fab fa-facebook"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Twitter page (opens in a new tab)">
-                        <i class="fab fa-twitter-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our YouTube page (opens in a new tab)">
-                        <i class="fab fa-youtube-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in a new tab)">
-                        <i class="fab fa-instagram"></i></a>
-                </li>
-            </ul>
-        </div>
+      <div class="container">
+        <p>&copy; 2023 Healthy Habits. All rights reserved.</p>
+        <ul id="social-networks">
+          <li>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Facebook page (opens in a new tab)"
+            >
+              <i class="fab fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.twitter.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Twitter page (opens in a new tab)"
+            >
+              <i class="fab fa-twitter-square"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our YouTube page (opens in a new tab)"
+            >
+              <i class="fab fa-youtube-square"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Instagram page (opens in a new tab)"
+            >
+              <i class="fab fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
     </footer>
 
-    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/3b20d96fa9.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="assets/js/navbar.js"></script>
-</body>
-
+  </body>
 </html>
