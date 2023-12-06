@@ -17,3 +17,6 @@ Favicon structure and content is inspired from the love running project and foll
 - Hero image added, link here https://unsplash.com/photos/topless-man-in-black-shorts-sitting-on-black-and-silver-barbell-9dzWZQWZMdE
 - Styled with inline css at first for simplicity, this move was inspired after watching the module, since i wanted this to target the hero content specifically without removing any css from style.css regarding the heading content.
 - This might change during the build and be moved over to the style.css file.
+
+## Style
+-Font family used: Josefin Sans link here <https://fonts.google.com/specimen/Josefin+Sans>
