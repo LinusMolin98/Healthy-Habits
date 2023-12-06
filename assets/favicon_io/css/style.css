@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+.main-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    margin: 0;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.main-nav {
+    margin-top: 10px;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Content Styles */
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Footer Styles */
+.main-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+    /* Push the footer to the bottom */
+}
+
+.main-footer p {
+    margin: 0;
+}
+
+/* Social Icons */
+#social-networks {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+#social-networks li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#social-networks a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* Add more specific styles for individual icons if needed */
+.fab.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fab.fa-twitter-square {
+    color: #1da1f2;
+}
+
+.fab.fa-youtube-square {
+    color: #c4302b;
+}
+
+.fab.fa-instagram {
+    color: #e4405f;
+}
