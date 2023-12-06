@@ -11,6 +11,9 @@ Favicon structure and content is inspired from the love running project and foll
 
 ## Added a new css styleheet for the navbar
 - Reason for this is to make it as clean as possible, and not having any file overrun with information. 
+- revised 
+- The stylesheet was deleted, because it hindered the navbar from being functional. It did not communicate well with the project, i took the decision to only work with one style.css file.
+
 
 ## Added Hero Image 
 
@@ -20,3 +23,12 @@ Favicon structure and content is inspired from the love running project and foll
 
 ## Style
 -Font family used: Josefin Sans link here <https://fonts.google.com/specimen/Josefin+Sans>
+- Navbar is now working, its responsive and looks clean. Code is still messy but that will be cleaned in a later stage. 
+- Inspiration was taken from the css and html module from codeinstitute, aswell as the love running project where the burger icon was used. 
+
+# Template
+
+- Template used in this project is the one from codeinstitute (link here) <https://github.com/Code-Institute-Org/ci-full-template>
+
+# Technology
+- This project was written in HTML & CSS using Codeanywhere and is currently hosted on GitHub pages.
