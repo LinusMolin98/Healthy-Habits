@@ -1,5 +1,151 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Lato:ital,wght@1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    position: relative;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.navbar-toggle-btn {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+
+.burger-icon {
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #fff;
+    margin: 0;
+}
+
+.navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    margin-right: 20px;
+}
+
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Add styles for the dropdown menu */
+.navbar-links ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.navbar-links li:hover ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-links li:hover a {
+    color: #ffd700;
+    
+}
+
+.navbar-links li:hover li {
+    margin-right: 0;
+    
+}
+
+.navbar-links li li {
+    display: none;
+}
+
+.navbar-links li:hover li {
+    display: block;
+    margin-top: 10px;
+    /* Adjust spacing for dropdown items */
+}
+
+#navbar-toggle {
+    display: none;
+}
+
+.title {
+    margin: 0;
+    font-size: 1.5em;
+    visibility: visible;
+}
+
+#navbar-toggle:checked+.container .title {
+    visibility: hidden;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-toggle-btn {
+            display: block;
+        }
+    
+        
+#navbar-toggle:not(:checked)+.container .navbar-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 2;
+}
+
+#navbar-toggle:checked+.container .navbar-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 2;
+}
+
+#navbar-toggle:checked+.container .navbar-toggle-btn {
+    z-index: 3;
+    
+}
+
+.navbar-links li {
+    margin-right: 0;
+    margin-bottom: 10px;
+    
+}
+
 /* Global Styles */
 body {
     font-family: 'Josefin Sans', 'Lato', 'Oswald', sans-serif;
