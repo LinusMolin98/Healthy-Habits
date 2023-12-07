@@ -43,5 +43,3 @@ Favicon structure and content is inspired from the love running project and foll
 
 - I created a simple JavaScript video, while not needed for the project it looks good, and since i wanted a video it was needed. I got help from the following website to make it happen - <https://img.ly/blog/how-to-build-video-player-in-javascript/>
 
-# Troubleshooting the code
-- During the project i used chatgpt to troubleshoot the code, and to help make it look clean. Thats the reason for why there sometimes are alot of deletion and addition in the repository. 
