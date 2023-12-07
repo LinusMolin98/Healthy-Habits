@@ -8,12 +8,13 @@ Favicon structure and content is inspired from the love running project and foll
 - Footer content inspired and based on the love running project, with the social media links. But also by myself with inspiration from what i learned in the modules.
 - Font awesome kit used (link) <<https://kit.fontawesome.com/3b20d96fa9.js,> <https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css>
 - I got information about using multiple stylesheets from Stack-overflow while scouting for information. (Link here) <https://stackoverflow.com/questions/4284499/use-multiple-css-stylesheets-in-the-same-html-page>
+- Got information about how to make a background img follow the page size through https://www.webfx.com/blog/web-design/circular-images-css/ 
 
 ## Added a new css styleheet for the navbar
 - Reason for this is to make it as clean as possible, and not having any file overrun with information. 
 - revised 
 - The stylesheet was deleted, because it hindered the navbar from being functional. It did not communicate well with the project, i took the decision to only work with one style.css file.
-
+- Changed idea due to problems with the burger icon, the project will have an interactive nav menu without the burger icon due to the lack of time.
 
 ## Added Hero Image 
 
