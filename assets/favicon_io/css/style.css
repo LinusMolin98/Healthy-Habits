@@ -103,64 +103,14 @@
     visibility: hidden;
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
-    .navbar-toggle-btn {
-        display: block;
-    }
-
-    #navbar-toggle:not(:checked)+.container .navbar-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 80px;
-        right: 0;
-        width: 100%;
-        background-color: #333;
-        z-index: 2;
-    }
-
-    #navbar-toggle:checked+.container .navbar-links {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 10px;
-        right: 0;
-        width: 100%;
-        background-color: #333;
-        z-index: 2;
-    }
-
-    #navbar-toggle:checked+.container .navbar-toggle-btn {
-        z-index: 3;
-    }
-
-    .navbar-links li {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-}
-
 /* Global Styles */
 body {
-    background-image: url("assets/images/low-angle-view-unrecognizable-muscular-build-man-preparing-lifting-barbell-health-club.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 400px;
+    font-family: 'Josefin Sans', 'Lato', 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(216, 12, 12);
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-.hero h1 {
-    font-size: 2.5em;
-}
-
-.hero p {
-    font-size: 1.2em;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .container {
@@ -207,20 +157,37 @@ body {
 .inspirational-image {
     background-image: url('assets/images/1608.m00.i125.n001.P.c25.412978636 Active running woman vector illustration. Energy jogging woman design.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: 50% 50%;
     background-attachment: fixed;
     border-radius: 10px;
     overflow: hidden;
-    margin: 20px 20px 0 20px;
-    height: calc(100vh - 120px);
-    /* Adjusted height to make it responsive and glued to the footer */
+    margin: 20px 0;
+    min-height: 300px;
+}
+
+@media (min-width: 768px) {
+    .inspirational-image {
+        min-height: 400px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .inspirational-image {
+        min-height: 500px;
+    }
+}
+
+#benefits-image {
+    text-align: center;
 }
 
 #benefits-image img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    display: block;
-    margin: 0 auto;
+    max-width: 600px;
+    /* Set a maximum width as needed */
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
 /* Footer Styles */
@@ -249,7 +216,6 @@ body {
     font-size: 24px;
 }
 
-/* Social Icons */
 .fa-facebook {
     color: #3b5998;
 }
