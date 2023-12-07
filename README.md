@@ -55,3 +55,13 @@ Favicon structure and content is inspired from the love running project and foll
 ! [image](assets/images/Skärmbild_2023-12-07_232407.png) - Screenshot of index.html code going through w3c without errors
 
 ! [image](assets/images/Skärmbild_2023-12-07_233709.png) - Screenshot of tips.html code going through w3c without errors
+
+## Running the project in lighthouse 
+  
+- ! [image](assets/images/Skärmbild_2023-12-08_000139.png) - Screenshot of how the project performed in lighthouse 
+
+## Am i responsive? 
+
+- Heres how the project looked in "Am i responsive" 
+
+- ! [image](assets/images/Skärmbild_2023-12-08_000527.png) - Scrrenshot of the Am i Responsive
