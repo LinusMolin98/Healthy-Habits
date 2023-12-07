@@ -33,7 +33,6 @@
     right: 15px;
 }
 
-
 .burger-icon {
     font-size: 1.5em;
     cursor: pointer;
@@ -74,12 +73,10 @@
 
 .navbar-links li:hover a {
     color: #ffd700;
-    
 }
 
 .navbar-links li:hover li {
     margin-right: 0;
-    
 }
 
 .navbar-links li li {
@@ -109,51 +106,53 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
     .navbar-toggle-btn {
-            display: block;
-        }
-    
-        
-#navbar-toggle:not(:checked)+.container .navbar-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 80px;
-    right: 0;
-    width: 100%;
-    background-color: #333;
-    z-index: 2;
-}
+        display: block;
+    }
 
-#navbar-toggle:checked+.container .navbar-links {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 10px;
-    right: 0;
-    width: 100%;
-    background-color: #333;
-    z-index: 2;
-}
+    #navbar-toggle:not(:checked)+.container .navbar-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 100%;
+        background-color: #333;
+        z-index: 2;
+    }
 
-#navbar-toggle:checked+.container .navbar-toggle-btn {
-    z-index: 3;
-    
-}
+    #navbar-toggle:checked+.container .navbar-links {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 10px;
+        right: 0;
+        width: 100%;
+        background-color: #333;
+        z-index: 2;
+    }
 
-.navbar-links li {
-    margin-right: 0;
-    margin-bottom: 10px;
-    
+    #navbar-toggle:checked+.container .navbar-toggle-btn {
+        z-index: 3;
+    }
+
+    .navbar-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }
 
 /* Global Styles */
 body {
-    font-family: 'Josefin Sans', 'Lato', 'Oswald', sans-serif;
-    margin: 0;
-    padding: 0;
+    background-image: url("assets/images/low-angle-view-unrecognizable-muscular-build-man-preparing-lifting-barbell-health-club.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: rgb(216, 12, 12);
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .container {
@@ -201,10 +200,12 @@ body {
     background-image: url('assets/images/1608.m00.i125.n001.P.c25.412978636 Active running woman vector illustration. Energy jogging woman design.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     border-radius: 10px;
     overflow: hidden;
-    margin: 20px;
-    height: 200px;
+    margin: 20px 20px 0 20px;
+    height: calc(100vh - 120px);
+    /* Adjusted height to make it responsive and glued to the footer */
 }
 
 #benefits-image img {
