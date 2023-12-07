@@ -9,6 +9,8 @@ Favicon structure and content is inspired from the love running project and foll
 - Font awesome kit used (link) <<https://kit.fontawesome.com/3b20d96fa9.js,> <https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css>
 - I got information about using multiple stylesheets from Stack-overflow while scouting for information. (Link here) <https://stackoverflow.com/questions/4284499/use-multiple-css-stylesheets-in-the-same-html-page>
 - Got information about how to make a background img follow the page size through https://www.webfx.com/blog/web-design/circular-images-css/ 
+- Introduced a video container in the tips.html, made it interactive with the help of css instead of Java, this was quite tricky but with the help from https://reintech.io/blog/creating-responsive-video-player-with-css i made it work. 
+- They had the correct code wich i could use to make the video worked, so i used it and linked my own video file into it. 
 
 ## Added a new css styleheet for the navbar
 - Reason for this is to make it as clean as possible, and not having any file overrun with information. 
@@ -27,6 +29,8 @@ Favicon structure and content is inspired from the love running project and foll
 -Font family used: Josefin Sans link here <https://fonts.google.com/specimen/Josefin+Sans>
 - Navbar is now working, its responsive and looks clean. Code is still messy but that will be cleaned in a later stage. 
 - Inspiration was taken from the css and html module from codeinstitute, aswell as the love running project where the burger icon was used. 
+- Wen making the pictures fit i also used information from - <https://www.youtube.com/results?search_query=How+to+make+content+pictures+work+well+with+css+>
+- Aswell as the modules from <https://learn.codeinstitute.net/courses>
 
 # Template
 
@@ -34,3 +38,10 @@ Favicon structure and content is inspired from the love running project and foll
 
 # Technology
 - This project was written in HTML & CSS using Codeanywhere and is currently hosted on GitHub pages.
+
+## Javascript 
+
+- I created a simple JavaScript video, while not needed for the project it looks good, and since i wanted a video it was needed. I got help from the following website to make it happen - <https://img.ly/blog/how-to-build-video-player-in-javascript/>
+
+# Troubleshooting the code
+- During the project i used chatgpt to troubleshoot the code, and to help make it look clean. Thats the reason for why there sometimes are alot of deletion and addition in the repository. 
