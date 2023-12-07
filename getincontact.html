@@ -1,224 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healthy Habits - Get in contact</title>
-    <!-- Favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/favicon_io/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicon_io/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicon_io/favicon-16x16.png"
-    />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      integrity="sha384-pzjw8J+0UqRAO+VeioVVdOVWSJFX1fKeG1tiIAX5shMzjzkUHjELISOnnU2VEVvN"
-      crossorigin="anonymous"
-    />
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="assets/favicon_io/css/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha384-pzjw8J+0UqRAO+VeioVVdOVWSJFX1fKeG1tiIAX5shMzjzkUHjELISOnnU2VEVvN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/favicon_io/css/style.css">
     <style>
-      #get-in-contact {
-        background-color: #f7f7f7;
-        border: 2px solid #ddd;
-        border-radius: 10px;
-        padding: 20px;
-        max-width: 400px;
-        margin: 0 auto;
-      }
+        #get-in-contact {
+            background-color: #f7f7f7;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
 
-      .text-input {
-        width: 100%;
-        padding: 10px;
-        margin: 8px 0;
-        box-sizing: border-box;
-      }
+        .text-input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
 
-      .radio-buttons {
-        display: flex;
-        justify-content: space-between;
-        margin: 10px 0;
-      }
+        .radio-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+        }
 
-      .radio-buttons div {
-        flex: 1;
-      }
+        .radio-buttons div {
+            flex: 1;
+        }
 
-      .join-button {
-        background-color: #4caf50;
-        color: white;
-        padding: 10px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        width: 100%;
-      }
+        .join-button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
 
-      .join-button:hover {
-        background-color: #45a049;
-      }
+        .join-button:hover {
+            background-color: #45a049;
+        }
     </style>
-  </head>
+</head>
 
-  <body>
-    <!-- Navbar Toggle Checkbox -->
+<body>
+
     <nav class="navbar">
-      <input type="checkbox" id="navbar-toggle" />
-      <div class="container">
-        <label for="navbar-toggle" class="navbar-toggle-btn">
-          <span class="burger-icon">&#9776;</span>
-        </label>
-        <ul class="navbar-links">
-          <li><a href="index.html">Welcome</a></li>
-          <li><a href="tips.html">Tips</a></li>
-          <li><a href="getincontact.html">Get in contact</a></li>
-        </ul>
-      </div>
+        <input type="checkbox" id="navbar-toggle">
+        <div class="container">
+            <label for="navbar-toggle" class="navbar-toggle-btn">
+                <span class="burger-icon">&#9776;</span>
+            </label>
+            <ul class="navbar-links">
+                <li><a href="index.html">Welcome</a></li>
+                <li><a href="tips.html">Tips</a></li>
+                <li><a href="getincontact.html">Get in contact</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <!-- Main Content -->
     <main>
-      <section id="motivational-form">
-        <form
-          id="motivate-me-form"
-          method="POST"
-          action="https://formdump.codeinstitute.net"
-        >
-          <h2><i class="fa-solid fa-dumbbell"></i> Get Daily Motivation</h2>
-          <label for="motivator_first_name">First Name</label>
-          <input
-            type="text"
-            name="motivator_first_name"
-            id="motivator_first_name"
-            class="motivation-input"
-            required
-          />
-          <br />
-          <label for="motivator_last_name">Last Name</label>
-          <input
-            type="text"
-            name="motivator_last_name"
-            id="motivator_last_name"
-            class="motivation-input"
-            required
-          />
-          <br />
-          <label for="motivator_email_address">Email Address</label>
-          <input
-            type="email"
-            name="motivator_email_address"
-            id="motivator_email_address"
-            class="motivation-input"
-            required
-          />
-          <br />
-          <div class="motivation-radio-buttons">
-            <div>
-              <label for="motivator_road">Road</label>
-              <input
-                type="radio"
-                name="motivation_preference"
-                id="motivator_road"
-                value="road"
-                required
-                checked
-              />
-            </div>
-            <div>
-              <label for="motivator_trial">Trial</label>
-              <input
-                type="radio"
-                name="motivation_preference"
-                id="motivator_trail"
-                value="trail"
-                required
-              />
-            </div>
-            <div>
-              <label for="motivator_legend">Legend</label>
-              <input
-                type="radio"
-                name="motivation_preference"
-                id="motivator_both"
-                value="both"
-                required
-              />
-            </div>
-          </div>
-          <button type="submit" class="motivation-button">
-            Stay Motivated
-          </button>
-        </form>
-      </section>
+        <section id="motivational-form">
+            <form id="motivate-me-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-solid fa-dumbbell"></i> Get Daily Motivation</h2>
+                <label for="motivator-first-name">First Name</label>
+                <input type="text" name="motivator-first-name" id="motivator-first-name" class="motivation-input"
+                    required>
+                <br>
+                <label for="motivator-last-name">Last Name</label>
+                <input type="text" name="motivator-last-name" id="motivator-last-name" class="motivation-input"
+                    required>
+                <br>
+                <label for="motivator-email-address">Email Address</label>
+                <input type="email" name="motivator-email-address" id="motivator-email-address" class="motivation-input"
+                    required>
+                <br>
+                <div class="motivation-radio-buttons">
+                    <div>
+                        <label for="motivator-road">Road</label>
+                        <input type="radio" name="motivation-preference" id="motivator-road" value="road" required
+                            checked>
+                    </div>
+                    <div>
+                        <label for="motivator-trial">Trial</label>
+                        <input type="radio" name="motivation-preference" id="motivator-trail" value="trail" required>
+                    </div>
+                    <div>
+                        <label for="motivator-legend">Legend</label>
+                        <input type="radio" name="motivation-preference" id="motivator-both" value="both" required>
+                    </div>
+                </div>
+                <button type="submit" class="motivation-button">
+                    Stay Motivated
+                </button>
+            </form>
+        </section>
     </main>
 
-    <!-- Footer -->
     <footer class="main-footer">
-      <div class="container">
-        <p>&copy; 2023 Healthy Habits. All rights reserved.</p>
-        <ul id="social-networks">
-          <li>
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              rel="noopener"
-              aria-label="Visit our Facebook page (opens in a new tab)"
-            >
-              <i class="fab fa-facebook"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.twitter.com/"
-              target="_blank"
-              rel="noopener"
-              aria-label="Visit our Twitter page (opens in a new tab)"
-            >
-              <i class="fab fa-twitter-square"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.youtube.com/"
-              target="_blank"
-              rel="noopener"
-              aria-label="Visit our YouTube page (opens in a new tab)"
-            >
-              <i class="fab fa-youtube-square"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              rel="noopener"
-              aria-label="Visit our Instagram page (opens in a new tab)"
-            >
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
+        <div class="container">
+            <p>&copy; 2023 Healthy Habits. All rights reserved.</p>
+            <ul id="social-networks">
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page (opens in a new tab)">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our YouTube page (opens in a new tab)">
+                        <i class="fab fa-youtube-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </footer>
 
-    <script
-      src="https://kit.fontawesome.com/3b20d96fa9.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

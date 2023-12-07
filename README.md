@@ -52,4 +52,6 @@ Favicon structure and content is inspired from the love running project and foll
 
 ## Action section 
 
-! [image](assets/images/Skärmbild_2023-12-07_232407.png) - Screenshot of html going through w3c without errors
+! [image](assets/images/Skärmbild_2023-12-07_232407.png) - Screenshot of index.html code going through w3c without errors
+
+! [image](assets/images/Skärmbild_2023-12-07_233709.png) - Screenshot of tips.html code going through w3c without errors
