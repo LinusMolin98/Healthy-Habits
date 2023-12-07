@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Healthy Habits - Get in Contact</title>
+    <title>Healthy Habits - Tips</title>
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png" />
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="assets/favicon_io/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha384-pzjw8J+0UqRAO+VeioVVdOVWSJFX1fKeG1tiIAX5shMzjzkUHjELISOnnU2VEVvN" crossorigin="anonymous" />
-   
+
     <style>
         /* Add your existing styles here */
 
@@ -28,11 +28,16 @@
             position: relative;
             max-width: 800px;
             margin: 0 auto;
+            overflow: hidden;
         }
 
         video {
             width: 100%;
+            height: auto;
             max-height: 400px;
+            display: block;
+            margin: 0 auto;
+            
         }
 
         button {
@@ -50,6 +55,16 @@
 
         button:hover {
             background-color: #555;
+        }
+
+        
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .inspo h1 {
+            color: #333;
         }
     </style>
 </head>
@@ -72,7 +87,7 @@
 
     <!-- Main Content -->
     <main>
-        <div class="hero">
+        <div class="inspo">
             <h1>A father paves the way for his child</h1>
         </div>
 
@@ -94,37 +109,37 @@
     </main>
 
     <!-- Footer -->
-<footer class="main-footer">
-    <div class="container">
-        <p>&copy; 2023 Healthy Habits. All rights reserved.</p>
-        <ul id="social-networks">
-            <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)">
-                    <i class="fab fa-facebook"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)">
-                    <i class="fab fa-twitter-square"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)">
-                    <i class="fab fa-youtube-square"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </li>
-        </ul>
-    </div>
-</footer>
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2023 Healthy Habits. All rights reserved.</p>
+            <ul id="social-networks">
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page (opens in a new tab)">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our YouTube page (opens in a new tab)">
+                        <i class="fab fa-youtube-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
     <script>
         document.getElementById('playButton').addEventListener('click', function () {
@@ -141,4 +156,3 @@
 </body>
 
 </html>
-
