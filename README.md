@@ -6,7 +6,7 @@ Favicon structure and content is inspired from the love running project and foll
 
 - Pictures have been taken from unsplash.com - (link here) <https://unsplash.com/s/photos/fitness>
 - Footer content inspired and based on the love running project, with the social media links. But also by myself with inspiration from what i learned in the modules.
-- Font awesome kit used (link) <<https://kit.fontawesome.com/3b20d96fa9.js,> <https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css>
+- Font awesome kit used (link) <https://kit.fontawesome.com/3b20d96fa9.js,> (Social media icons, same as the love running project) <https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css> (Text-font)
 - I got information about using multiple stylesheets from Stack-overflow while scouting for information. (Link here) <https://stackoverflow.com/questions/4284499/use-multiple-css-stylesheets-in-the-same-html-page>
 - Got information about how to make a background img follow the page size through https://www.webfx.com/blog/web-design/circular-images-css/ 
 - Introduced a video container in the tips.html, made it interactive with the help of css instead of Java, this was quite tricky but with the help from https://reintech.io/blog/creating-responsive-video-player-with-css i made it work. 
@@ -43,3 +43,5 @@ Favicon structure and content is inspired from the love running project and foll
 
 - I created a simple JavaScript video, while not needed for the project it looks good, and since i wanted a video it was needed. I got help from the following website to make it happen - <https://img.ly/blog/how-to-build-video-player-in-javascript/>
 
+## Form element
+- When i created the form with the confirmation page i took inspiration from the love running project, but put my own motivational twist on it. I wrote similar code but made some tweaks and changes to make it my own. 
