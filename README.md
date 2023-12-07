@@ -1,5 +1,9 @@
 # Welcome to my first webpage! 
-This project will be a website about fitness and healthy habits. 
+-This project will be a website about fitness and healthy habits. 
+
+-Link to the website here - https://linusmolin98.github.io/Healthy-Habits/index.html
+
+-Link to the repository here - 
 
 ## Content 
 Favicon structure and content is inspired from the love running project and follows a similar syntax. 
@@ -45,3 +49,7 @@ Favicon structure and content is inspired from the love running project and foll
 
 ## Form element
 - When i created the form with the confirmation page i took inspiration from the love running project, but put my own motivational twist on it. I wrote similar code but made some tweaks and changes to make it my own. 
+
+## Action section 
+
+! [image](assets/images/Skärmbild_2023-12-07_232407.png) - Screenshot of html going through w3c without errors
