@@ -57,7 +57,7 @@
     font-size: 1.2em;
 }
 
-/* Add styles for the dropdown menu */
+
 .navbar-links ul {
     display: none;
     position: absolute;
@@ -86,7 +86,7 @@
 .navbar-links li:hover li {
     display: block;
     margin-top: 10px;
-    /* Adjust spacing for dropdown items */
+    
 }
 
 #navbar-toggle {
@@ -185,7 +185,6 @@ body {
     width: 100%;
     height: auto;
     max-width: 600px;
-    /* Set a maximum width as needed */
     border-radius: 10px;
     margin-top: 20px;
 }
