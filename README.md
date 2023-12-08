@@ -50,11 +50,16 @@ Favicon structure and content is inspired from the love running project and foll
 ## Form element
 - When i created the form with the confirmation page i took inspiration from the love running project, but put my own motivational twist on it. I wrote similar code but made some tweaks and changes to make it my own. 
 
-## Action section 
+## W3C Testing section  
 
 ! [image](assets/images/Skärmbild_2023-12-07_232407.png) - Screenshot of index.html code going through w3c without errors
 
 ! [image](assets/images/Skärmbild_2023-12-07_233709.png) - Screenshot of tips.html code going through w3c without errors
+
+! [image](assets/images/Skärmbild_2023-12-08_113748.png) - Screenshot of getincontact.html code going through w3c without errors
+
+! [image](assets/images/Skärmbild_2023-12-08_104300.png) - Screenshot of style.css code going through w3c Jigsaw without errors
+
 
 ## Running the project in lighthouse 
   
