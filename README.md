@@ -3,7 +3,7 @@
 
 -Link to the website here - https://linusmolin98.github.io/Healthy-Habits/index.html
 
--Link to the repository here - 
+-Link to the repository here - https://github.com/LinusMolin98/Healthy-Habits
 
 ## Content 
 Favicon structure and content is inspired from the love running project and follows a similar syntax. 
