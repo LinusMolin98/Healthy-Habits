@@ -1,67 +1,101 @@
-# Welcome to my first webpage! 
--This project will be a website about fitness and healthy habits. 
+# Healthy Habits
 
--Link to the website here - https://linusmolin98.github.io/Healthy-Habits/index.html
+## Project Overview
 
--Link to the repository here - 
+Welcome to Healthy Habits, a website dedicated to promoting fitness and healthy lifestyle habits. This project aims to inspire and guide users on their journey to a healthier life. Whether you're looking for fitness tips, motivational quotes, or information on building healthy habits, Healthy Habits has you covered.
 
-## Content 
-Favicon structure and content is inspired from the love running project and follows a similar syntax. 
+## Deployed Website
 
-- Pictures have been taken from unsplash.com - (link here) <https://unsplash.com/s/photos/fitness>
-- Footer content inspired and based on the love running project, with the social media links. But also by myself with inspiration from what i learned in the modules.
-- Font awesome kit used (link) <https://kit.fontawesome.com/3b20d96fa9.js,> (Social media icons, same as the love running project) <https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css> (Text-font)
-- I got information about using multiple stylesheets from Stack-overflow while scouting for information. (Link here) <https://stackoverflow.com/questions/4284499/use-multiple-css-stylesheets-in-the-same-html-page>
-- Got information about how to make a background img follow the page size through https://www.webfx.com/blog/web-design/circular-images-css/ 
-- Introduced a video container in the tips.html, made it interactive with the help of css instead of Java, this was quite tricky but with the help from https://reintech.io/blog/creating-responsive-video-player-with-css i made it work. 
-- They had the correct code wich i could use to make the video worked, so i used it and linked my own video file into it. 
+[Healthy Habits Website](https://linusmolin98.github.io/Healthy-Habits/index.html)
 
-## Added a new css styleheet for the navbar
-- Reason for this is to make it as clean as possible, and not having any file overrun with information. 
-- revised 
-- The stylesheet was deleted, because it hindered the navbar from being functional. It did not communicate well with the project, i took the decision to only work with one style.css file.
-- Changed idea due to problems with the burger icon, the project will have an interactive nav menu without the burger icon due to the lack of time.
+## Table of Contents
 
-## Added Hero Image 
+- [Healthy Habits](#healthy-habits)
+  - [Project Overview](#project-overview)
+  - [Deployed Website](#deployed-website)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+    - [Navigation](#navigation)
+    - [Hero Image](#hero-image)
+    - [Fitness Section](#fitness-section)
+    - [Footer](#footer)
+    - [Gallery](#gallery)
+    - [Sign Up](#sign-up)
+  - [Features Left to Implement](#features-left-to-implement)
+  - [Testing](#testing)
+    - [Validator Testing](#validator-testing)
+    - [Unfixed Bugs](#unfixed-bugs)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+    - [External Resources](#external-resources)
 
-- Hero image added, link here https://unsplash.com/photos/topless-man-in-black-shorts-sitting-on-black-and-silver-barbell-9dzWZQWZMdE
-- Styled with inline css at first for simplicity, this move was inspired after watching the module, since i wanted this to target the hero content specifically without removing any css from style.css regarding the heading content.
-- This might change during the build and be moved over to the style.css file.
-- Tried adding the Hero image CSS to style.css file instead of inline css, this did not work as i wanted, so i decided to stick with inline css for this part. I did not want to over complicate anything.
+## Features
 
-## Style
--Font family used: Josefin Sans link here <https://fonts.google.com/specimen/Josefin+Sans>
-- Navbar is now working, its responsive and looks clean. Code is still messy but that will be cleaned in a later stage. 
-- Inspiration was taken from the css and html module from codeinstitute, aswell as the love running project where the burger icon was used. 
-- Wen making the pictures fit i also used information from - <https://www.youtube.com/results?search_query=How+to+make+content+pictures+work+well+with+css+>
-- Aswell as the modules from <https://learn.codeinstitute.net/courses>
+### Navigation
 
-# Template
+The responsive navigation bar ensures easy navigation, allowing users to explore different sections of the website seamlessly.
 
-- Template used in this project is the one from codeinstitute (link here) <https://github.com/Code-Institute-Org/ci-full-template>
+### Hero Image
 
-# Technology
-- This project was written in HTML & CSS using Codeanywhere and is currently hosted on GitHub pages.
+The hero section features an inspiring image with inline CSS styling, setting the tone for the Healthy Habits experience.
 
-## Javascript 
+### Fitness Section
 
-- I created a simple JavaScript video, while not needed for the project it looks good, and since i wanted a video it was needed. I got help from the following website to make it happen - <https://img.ly/blog/how-to-build-video-player-in-javascript/>
+Discover motivational quotes from famous athletes, presented in a clean and engaging format. The benefits of physical and mental well-being are highlighted.
 
-## Form element
-- When i created the form with the confirmation page i took inspiration from the love running project, but put my own motivational twist on it. I wrote similar code but made some tweaks and changes to make it my own. 
+### Footer
 
-## Action section 
+Connect with Healthy Habits on social media through the footer, providing easy access to stay updated on health and fitness content.
 
-! [image](assets/images/Skärmbild_2023-12-07_232407.png) - Screenshot of index.html code going through w3c without errors
+### Gallery
 
-! [image](assets/images/Skärmbild_2023-12-07_233709.png) - Screenshot of tips.html code going through w3c without errors
+Explore a collection of images related to fitness, providing users with a visual representation of the website's content.
 
-## Running the project in lighthouse 
-  
-- ! [image](assets/images/Skärmbild_2023-12-08_000139.png) - Screenshot of how the project performed in lighthouse 
+### Sign Up
 
-## Am i responsive? 
+Interested users can sign up to kickstart their fitness journey, specifying preferences and providing necessary contact details.
 
-- Heres how the project looked in "Am i responsive" 
+## Features Left to Implement
 
-- ! [image](assets/images/Skärmbild_2023-12-08_000527.png) - Scrrenshot of the Am i Responsive
+- **Additional Feature Idea:** Describe any future features or enhancements planned for the project.
+
+## Testing
+
+Ensure that all features work seamlessly, and conduct compatibility testing on different browsers and screen sizes.
+
+### Validator Testing
+
+- **HTML:** No errors found when passing through the official W3C validator.
+- **CSS:** No errors found when passing through the official validator.
+
+### Unfixed Bugs
+
+Document any unfixed bugs and provide reasons for not addressing them.
+
+## Deployment
+
+The website is hosted on GitHub Pages. To deploy:
+1. Navigate to the Settings tab in the GitHub repository.
+2. Choose the Master Branch as the source.
+3. Access the live link [here](https://linusmolin98.github.io/Healthy-Habits/index.html).
+
+## Credits
+
+### Content
+
+- Favicon structure and content inspired by the Love Running project.
+- Fitness quotes and content inspired by various sources, credited in the code comments.
+
+### Media
+
+- Hero image sourced from Unsplash.
+- Additional images from [Unsplash - Fitness](https://unsplash.com/s/photos/fitness).
+
+### External Resources
+
+- Font Awesome kit used for social media icons.
+- CSS and coding references from Stack Overflow, YouTube, and Code Institute modules.
+
+Congratulations on creating Healthy Habits! Remember to maintain a healthy commit history and file organization for a polished project portfolio.

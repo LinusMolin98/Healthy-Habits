@@ -74,18 +74,7 @@
 .navbar-links li:hover a {
     color: #ffd700;
 }
-
-.navbar-links li:hover li {
-    margin-right: 0;
-}
-
-.navbar-links li li {
-    display: none;
-}
-
-.navbar-links li:hover li {
-    display: block;
-    margin-top: 10px;
+   margin-top: 10px;
 
 }
 
@@ -233,3 +222,14 @@ body {
 .fa-instagram {
     color: #e4405f;
 }
+.navbar-links li:hover li {
+    margin-right: 0;
+}
+
+.navbar-links li li {
+    display: none;
+}
+
+.navbar-links li:hover li {
+    display: block;
+ 
