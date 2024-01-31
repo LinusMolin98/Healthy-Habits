@@ -2,7 +2,10 @@
 
 ## Project Overview
 
-Welcome to Healthy Habits, a website dedicated to promoting fitness and healthy lifestyle habits. This project aims to inspire and guide users on their journey to a healthier life. Whether you're looking for fitness tips, motivational quotes, or information on building healthy habits, Healthy Habits has you covered.
+Welcome to Healthy Habits, a website dedicated to promoting fitness and healthy lifestyle habits. This project aims to inspire and guide users on their journey to a healthier life. Whether you're looking for fitness tips, motivational quotes, or information on building healthy habits, Healthy Habits has you covered. Provide us with your personal information through our form, to get updated weekly with new motivational content. 
+
+## Am i Responsive
+![Am i Resopsive](screenshots/am_i_responsive.png)
 
 ## Deployed Website
 
@@ -12,6 +15,7 @@ Welcome to Healthy Habits, a website dedicated to promoting fitness and healthy 
 
 - [Healthy Habits](#healthy-habits)
   - [Project Overview](#project-overview)
+  - [Am i Responsive](#am-i-responsive)
   - [Deployed Website](#deployed-website)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
@@ -35,7 +39,8 @@ Welcome to Healthy Habits, a website dedicated to promoting fitness and healthy 
 
 ### Navigation
 
-The responsive navigation bar ensures easy navigation, allowing users to explore different sections of the website seamlessly.
+The responsive navigation bar ensures easy navigation, allowing users to explore the three different sections of the website seamlessly. The three different links are named "Welcome", "Tips" and "Get in Contact". The links ensures user friendlines.
+![Navigation](screenshots/navigation.png)
 
 ### Hero Image
 
