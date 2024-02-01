@@ -23,7 +23,7 @@ Welcome to Healthy Habits, a website dedicated to promoting fitness and healthy 
     - [Hero Image](#hero-image)
     - [Fitness Section](#fitness-section)
     - [Footer](#footer)
-    - [Gallery](#gallery)
+    - [Tips page](#tips-page)
     - [Sign Up](#sign-up)
   - [Features Left to Implement](#features-left-to-implement)
   - [Testing](#testing)
@@ -44,27 +44,37 @@ The responsive navigation bar ensures easy navigation, allowing users to explore
 
 ### Hero Image
 
-The hero section features an inspiring image with inline CSS styling, setting the tone for the Healthy Habits experience.
+The hero section features an inspiring image with inline CSS styling, setting the tone for the Healthy Habits experience. This is also the landing page picture that you will see at first glance of the website.
+
+![Hero image](screenshots/hero_image.png)
 
 ### Fitness Section
 
-Discover motivational quotes from famous athletes, presented in a clean and engaging format. The benefits of physical and mental well-being are highlighted.
+Discover motivational quotes from famous athletes, presented in a clean and engaging format. The benefits of physical and mental well-being are highlighted. 
+
+![Fitness section](screenshots/fitness_section.png)
 
 ### Footer
 
 Connect with Healthy Habits on social media through the footer, providing easy access to stay updated on health and fitness content.
 
-### Gallery
+![Social media-links](screenshots/footer.png)
 
-Explore a collection of images related to fitness, providing users with a visual representation of the website's content.
+### Tips page 
+
+Enjoy a inspirational video of a father providing his son with healthy tips. This part provides users with a visual representation of the website's content.
+
+![tips page](screenshots/tips.png)
 
 ### Sign Up
 
 Interested users can sign up to kickstart their fitness journey, specifying preferences and providing necessary contact details.
 
+![Get in Contact](screenshots/get_in_contact.png)
+
 ## Features Left to Implement
 
-- **Additional Feature Idea:** Describe any future features or enhancements planned for the project.
+- **Additional Feature Idea:** I would like to increase the page content, get more pictures into the tips page and tidy up the get in contact page. Healthy Habits would get a positive lift if the sign_up page had a picture.
 
 ## Testing
 
@@ -73,6 +83,8 @@ Ensure that all features work seamlessly, and conduct compatibility testing on d
 ### Validator Testing
 
 - **HTML:** No errors found when passing through the official W3C validator.
+![Validator testing](screenshots/validator_testing_HTML.png)
+
 - **CSS:** No errors found when passing through the official validator.
 
 ### Unfixed Bugs
