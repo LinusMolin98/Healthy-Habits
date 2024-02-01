@@ -4,6 +4,18 @@
 
 Welcome to Healthy Habits, a website dedicated to promoting fitness and healthy lifestyle habits. This project aims to inspire and guide users on their journey to a healthier life. Whether you're looking for fitness tips, motivational quotes, or information on building healthy habits, Healthy Habits has you covered. Provide us with your personal information through our form, to get updated weekly with new motivational content. 
 
+## UX Design elements
+1. User-Centric Design:
+This design revolves around the needs and preferences of the users. Navigating through the website is intuitive, ensuring a seamless and enjoyable experience for visitors seeking information on fitness and healthy habits.
+2. Responsive and Accessible:
+The site is designed to be responsive across various devices, ensuring accessibility for users on desktops, tablets, and smartphones. This approach guarantees a consistent and user-friendly interface regardless of the device being used.
+3. Clear and Engaging Content:
+Emphasis is placed on presenting clear and engaging content throughout the website. From motivational quotes to informational articles, the content aims to captivate and inspire users on their journey towards a healthier lifestyle.
+4. Interactive Features:
+Interactive elements, such as the responsive navigation bar and video content, are incorporated to enhance user engagement. These features contribute to a more immersive experience, making the website not only informative but also enjoyable to explore.
+5. Aesthetically Pleasing Design:
+Visual appeal is a crucial aspect of the design, with attention given to color schemes, typography, and imagery. The aesthetic elements are thoughtfully chosen to create a visually pleasing environment that complements the overall user experience.
+
 ## Am i Responsive
 ![Am i Resopsive](screenshots/am_i_responsive.png)
 
@@ -15,6 +27,7 @@ Welcome to Healthy Habits, a website dedicated to promoting fitness and healthy 
 
 - [Healthy Habits](#healthy-habits)
   - [Project Overview](#project-overview)
+  - [UX Design elements](#ux-design-elements)
   - [Am i Responsive](#am-i-responsive)
   - [Deployed Website](#deployed-website)
   - [Table of Contents](#table-of-contents)
@@ -27,8 +40,10 @@ Welcome to Healthy Habits, a website dedicated to promoting fitness and healthy 
     - [Sign Up](#sign-up)
   - [Features Left to Implement](#features-left-to-implement)
   - [Testing](#testing)
+    - [Browser and Screen Size Testing](#browser-and-screen-size-testing)
     - [Validator Testing](#validator-testing)
     - [Unfixed Bugs](#unfixed-bugs)
+    - [Lighthouse testing](#lighthouse-testing)
   - [Deployment](#deployment)
   - [Credits](#credits)
     - [Content](#content)
@@ -78,7 +93,9 @@ Interested users can sign up to kickstart their fitness journey, specifying pref
 
 ## Testing
 
-Ensure that all features work seamlessly, and conduct compatibility testing on different browsers and screen sizes.
+### Browser and Screen Size Testing
+The website has been tested on various browsers (Chrome, Firefox, Safari) and screen sizes to ensure a consistent and responsive user experience. The site performed well across different devices thanks to the media queries incorporated in the CSS file.
+The links in the navbar works fine, it could be optimized through using a hamburger icon. Social media links works without errors.
 
 ### Validator Testing
 
@@ -86,10 +103,18 @@ Ensure that all features work seamlessly, and conduct compatibility testing on d
 ![Validator testing](screenshots/validator_testing_HTML.png)
 
 - **CSS:** No errors found when passing through the official validator.
+![Validator testing](screenshots/css_testing.png)
 
 ### Unfixed Bugs
 
-Document any unfixed bugs and provide reasons for not addressing them.
+1. Slow Loading of Images:
+Some users may experience longer loading times for certain images in the gallery section. Im actively exploring optimizations to enhance image loading speed and provide a seamless browsing experience.
+
+2. Video Loading Speed:
+The video content on the site may exhibit slower loading times for some users. Im investigating ways to improve the loading speed, ensuring that all users can easily access and enjoy the video content without delays.
+
+### Lighthouse testing 
+![Lighthouse](screenshots/lighthouse.png)
 
 ## Deployment
 
@@ -114,6 +139,3 @@ The website is hosted on GitHub Pages. To deploy:
 
 - Font Awesome kit used for social media icons.
 - CSS and coding references from Stack Overflow, YouTube, and Code Institute modules.
-
-Congratulations on creating Healthy Habits! Remember to maintain a healthy commit history and file organization for a polished project portfolio.
-
